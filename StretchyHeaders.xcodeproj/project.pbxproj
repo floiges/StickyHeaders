@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7E42B9F1C3613F6009D151C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42B9E1C3613F6009D151C /* main.m */; };
+		E7E42BA21C3613F6009D151C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BA11C3613F6009D151C /* AppDelegate.m */; };
+		E7E42BA81C3613F6009D151C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E42BA61C3613F6009D151C /* Main.storyboard */; };
+		E7E42BAA1C3613F6009D151C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E42BA91C3613F6009D151C /* Assets.xcassets */; };
+		E7E42BAD1C3613F6009D151C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E42BAB1C3613F6009D151C /* LaunchScreen.storyboard */; };
+		E7E42BB81C361472009D151C /* HeaderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BB71C361472009D151C /* HeaderLayout.m */; };
+		E7E42BBB1C36175B009D151C /* LYDCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BBA1C36175B009D151C /* LYDCollectionViewController.m */; };
+		E7E42BBE1C36189B009D151C /* LYDLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BBD1C36189B009D151C /* LYDLayoutAttributes.m */; };
+		E7E42BC01C361A50009D151C /* Sessions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7E42BBF1C361A50009D151C /* Sessions.plist */; };
+		E7E42BC41C361D81009D151C /* LYDHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BC31C361D81009D151C /* LYDHeaderView.m */; };
+		E7E42BC81C362185009D151C /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BC71C362185009D151C /* Session.m */; };
+		E7E42BCB1C3631BE009D151C /* LYDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E42BCA1C3631BE009D151C /* LYDCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7E42B9A1C3613F6009D151C /* StretchyHeaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchyHeaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E42B9E1C3613F6009D151C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7E42BA01C3613F6009D151C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7E42BA11C3613F6009D151C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7E42BA71C3613F6009D151C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7E42BA91C3613F6009D151C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7E42BAC1C3613F6009D151C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7E42BAE1C3613F6009D151C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E42BB61C361472009D151C /* HeaderLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderLayout.h; sourceTree = "<group>"; };
+		E7E42BB71C361472009D151C /* HeaderLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderLayout.m; sourceTree = "<group>"; };
+		E7E42BB91C36175B009D151C /* LYDCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDCollectionViewController.h; sourceTree = "<group>"; };
+		E7E42BBA1C36175B009D151C /* LYDCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDCollectionViewController.m; sourceTree = "<group>"; };
+		E7E42BBC1C36189B009D151C /* LYDLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDLayoutAttributes.h; sourceTree = "<group>"; };
+		E7E42BBD1C36189B009D151C /* LYDLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDLayoutAttributes.m; sourceTree = "<group>"; };
+		E7E42BBF1C361A50009D151C /* Sessions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sessions.plist; sourceTree = "<group>"; };
+		E7E42BC21C361D81009D151C /* LYDHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDHeaderView.h; sourceTree = "<group>"; };
+		E7E42BC31C361D81009D151C /* LYDHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDHeaderView.m; sourceTree = "<group>"; };
+		E7E42BC61C362185009D151C /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		E7E42BC71C362185009D151C /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		E7E42BC91C3631BE009D151C /* LYDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDCollectionViewCell.h; sourceTree = "<group>"; };
+		E7E42BCA1C3631BE009D151C /* LYDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7E42B971C3613F6009D151C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7E42B911C3613F6009D151C = {
+			isa = PBXGroup;
+			children = (
+				E7E42B9C1C3613F6009D151C /* StretchyHeaders */,
+				E7E42B9B1C3613F6009D151C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7E42B9B1C3613F6009D151C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42B9A1C3613F6009D151C /* StretchyHeaders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7E42B9C1C3613F6009D151C /* StretchyHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42BC51C36216D009D151C /* Model */,
+				E7E42BC11C361D5E009D151C /* View */,
+				E7E42BBF1C361A50009D151C /* Sessions.plist */,
+				E7E42BB51C361408009D151C /* Layout */,
+				E7E42BB41C3613FF009D151C /* Controller */,
+				E7E42BA01C3613F6009D151C /* AppDelegate.h */,
+				E7E42BA61C3613F6009D151C /* Main.storyboard */,
+				E7E42BA11C3613F6009D151C /* AppDelegate.m */,
+				E7E42BA91C3613F6009D151C /* Assets.xcassets */,
+				E7E42BAB1C3613F6009D151C /* LaunchScreen.storyboard */,
+				E7E42BAE1C3613F6009D151C /* Info.plist */,
+				E7E42B9D1C3613F6009D151C /* Supporting Files */,
+			);
+			path = StretchyHeaders;
+			sourceTree = "<group>";
+		};
+		E7E42B9D1C3613F6009D151C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42B9E1C3613F6009D151C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7E42BB41C3613FF009D151C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42BB91C36175B009D151C /* LYDCollectionViewController.h */,
+				E7E42BBA1C36175B009D151C /* LYDCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E7E42BB51C361408009D151C /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42BB61C361472009D151C /* HeaderLayout.h */,
+				E7E42BB71C361472009D151C /* HeaderLayout.m */,
+				E7E42BBC1C36189B009D151C /* LYDLayoutAttributes.h */,
+				E7E42BBD1C36189B009D151C /* LYDLayoutAttributes.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		E7E42BC11C361D5E009D151C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42BC21C361D81009D151C /* LYDHeaderView.h */,
+				E7E42BC31C361D81009D151C /* LYDHeaderView.m */,
+				E7E42BC91C3631BE009D151C /* LYDCollectionViewCell.h */,
+				E7E42BCA1C3631BE009D151C /* LYDCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E7E42BC51C36216D009D151C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7E42BC61C362185009D151C /* Session.h */,
+				E7E42BC71C362185009D151C /* Session.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7E42B991C3613F6009D151C /* StretchyHeaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E42BB11C3613F6009D151C /* Build configuration list for PBXNativeTarget "StretchyHeaders" */;
+			buildPhases = (
+				E7E42B961C3613F6009D151C /* Sources */,
+				E7E42B971C3613F6009D151C /* Frameworks */,
+				E7E42B981C3613F6009D151C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchyHeaders;
+			productName = StretchyHeaders;
+			productReference = E7E42B9A1C3613F6009D151C /* StretchyHeaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7E42B921C3613F6009D151C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zoomlgd;
+				TargetAttributes = {
+					E7E42B991C3613F6009D151C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E7E42B951C3613F6009D151C /* Build configuration list for PBXProject "StretchyHeaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7E42B911C3613F6009D151C;
+			productRefGroup = E7E42B9B1C3613F6009D151C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7E42B991C3613F6009D151C /* StretchyHeaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7E42B981C3613F6009D151C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E42BAD1C3613F6009D151C /* LaunchScreen.storyboard in Resources */,
+				E7E42BAA1C3613F6009D151C /* Assets.xcassets in Resources */,
+				E7E42BA81C3613F6009D151C /* Main.storyboard in Resources */,
+				E7E42BC01C361A50009D151C /* Sessions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7E42B961C3613F6009D151C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E42BBB1C36175B009D151C /* LYDCollectionViewController.m in Sources */,
+				E7E42BA21C3613F6009D151C /* AppDelegate.m in Sources */,
+				E7E42BCB1C3631BE009D151C /* LYDCollectionViewCell.m in Sources */,
+				E7E42BBE1C36189B009D151C /* LYDLayoutAttributes.m in Sources */,
+				E7E42BB81C361472009D151C /* HeaderLayout.m in Sources */,
+				E7E42B9F1C3613F6009D151C /* main.m in Sources */,
+				E7E42BC41C361D81009D151C /* LYDHeaderView.m in Sources */,
+				E7E42BC81C362185009D151C /* Session.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7E42BA61C3613F6009D151C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E42BA71C3613F6009D151C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7E42BAB1C3613F6009D151C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7E42BAC1C3613F6009D151C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7E42BAF1C3613F6009D151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7E42BB01C3613F6009D151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7E42BB21C3613F6009D151C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchyHeaders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomlgd.hn.hnyx.StretchyHeaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7E42BB31C3613F6009D151C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StretchyHeaders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomlgd.hn.hnyx.StretchyHeaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7E42B951C3613F6009D151C /* Build configuration list for PBXProject "StretchyHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E42BAF1C3613F6009D151C /* Debug */,
+				E7E42BB01C3613F6009D151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E42BB11C3613F6009D151C /* Build configuration list for PBXNativeTarget "StretchyHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E42BB21C3613F6009D151C /* Debug */,
+				E7E42BB31C3613F6009D151C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7E42B921C3613F6009D151C /* Project object */;
+}
